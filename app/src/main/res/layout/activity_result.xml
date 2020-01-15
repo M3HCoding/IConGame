@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="dev.zmq.duckseatinsect.result"
+    android:background="@drawable/background"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView_Game_Over"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Game Over"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFFFF"
+        />
+    <TextView
+        android:id="@+id/textView_150"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="150"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:textColor="#FFFFFFFF"
+        android:layout_marginTop="70dp"/>
+    <TextView
+        android:id="@+id/textView_High_Score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="High Score:300"
+        android:textColor="#FFFFFFFF"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_marginTop="70dp"/>
+
+    <Button
+        android:id="@+id/btn_try_again"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/startbutton"
+        android:onClick="tryAgain"
+        android:text="Try Again"
+        android:textColor="#FFFFFFFF"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btn_exit"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/button"
+        android:text="Exit"
+        android:textColor="#FFFFFFFF"
+        android:textSize="30sp" />
+
+</LinearLayout>
